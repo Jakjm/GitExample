@@ -1,0 +1,30 @@
+Basics of git:
+
+Projects you'd like to maintain using git are stored inside directories called git repositories, which contain hidden folders that git
+uses to keep track of your project and changes to it.
+
+Creating a git repository:
+1) Use git bash inside the directory you'd like to create a repository of.
+2) Use the command: git init
+
+This will create a git repository inside that folder/directory.
+
+Your first git commit: -- 
+
+Git uses a "snapshot" model to keep track of the changes you've made to your project.
+When making changes to files, you need to "stage them" (add them) as content that you would like git to add to your next snapshot (commit)
+
+To stage/add files that you would like to commit, use one of the following commands
+
+1) git add <filename>
+	OR if you would like to add every file inside the directory,
+2) git add *
+
+To finalize this commit / take a snapshot of your "staged"/added content
+
+git commit -m "My first commit"
+
+To put your content on github, first we need to make a remote repository on github where a non-local copy of your repository will be stored.
+Once you have this remote repository made, we are going to "push" your content to this remote repository
+
+
