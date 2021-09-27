@@ -27,4 +27,7 @@ git commit -m "My first commit"
 To put your content on github, first we need to make a remote repository on github where a non-local copy of your repository will be stored.
 Once you have this remote repository made, we are going to "push" your content to this remote repository
 
+git remote add origin <link to git repo>
+git push origin master
+
 
